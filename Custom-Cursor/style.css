@@ -2,18 +2,36 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: white;
 }
 
 html,body{
 	height: 100%;
 	width: 100%;
-	margin: 0 auto;
+	
 }
 
 
 .main{
+	height: 100%;
+	width: 100%;
+	background-color: black;
   display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: cornflowerblue;
+	position: relative;
+}
+.cursor{
+	height: 20px;
+	width: 20px;
+	background-color: white;
+	border-radius: 50%;
+	mix-blend-mode: difference;
+	transition: all linear 0.2s;
+	position: absolute;
+}
+h1{
+	font-size: 9vw;
+  /* font-size: 20px; */
+	font-weight: 900;
 }
