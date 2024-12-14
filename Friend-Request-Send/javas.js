@@ -21,7 +21,7 @@ btn.addEventListener("click",function(){
 				check=1
 	}
 	else{
-		   istatus.innerHTML="Stranger";
+		  istatus.innerHTML="Stranger";
 			istatus.style.color="red"
 			btn.innerHTML="Add Friends";
 			 check=0
