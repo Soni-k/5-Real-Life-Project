@@ -25,6 +25,11 @@ html,body{
 	justify-content: flex-start;
 	position: relative;
 }
+.elem h1{
+	font-size: 7vw;
+	z-index: 9;
+	mix-blend-mode: difference;
+}
 
 .elem img{
 	width: 150px;
